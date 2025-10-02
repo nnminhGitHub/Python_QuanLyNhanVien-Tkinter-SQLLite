@@ -180,6 +180,7 @@ btn_thoat = tk.Button(frame_btn, text="Thoát", width=8, command=root.quit)
 btn_thoat.grid(row=0, column=5, padx=5)
 
 # ===== Thêm dữ liệu mẫu ban đầu =====
+'''
 sample_data = [
     ("NV001", "Nguyễn Phước Minh", "Tân", "Nam", "04/19/75", "Trưởng phòng"),
     ("NV004", "Lý Văn", "Sang", "Nam", "12/21/70", "Nhân viên chuyên trách"),
@@ -192,6 +193,7 @@ sample_data = [
 ]
 for row in sample_data:
     tree.insert("", tk.END, values=row)
+'''
 
 # ===== MAIN LOOP =====
 root.mainloop()
